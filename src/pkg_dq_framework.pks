@@ -1,4 +1,4 @@
-CREATE [OR REPLACE] PACKAGE audit_check_tools
+CREATE [OR REPLACE] PACKAGE pkg_dq_framework
 [AUTHID {CURRENT_USER | DEFINER}] 
 {IS | AS}
 
@@ -19,5 +19,5 @@ CREATE [OR REPLACE] PACKAGE audit_check_tools
         P_MAX_VALUE IN NUMBER
     ); 
 
-END audit_check_tools; 
+END pkg_dq_framework; 
 /
