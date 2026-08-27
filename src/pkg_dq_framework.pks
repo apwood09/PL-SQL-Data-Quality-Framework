@@ -17,7 +17,7 @@ CREATE [OR REPLACE] PACKAGE audit_check_tools
         EMPLOYEE_AGE IN VARCHAR2, 
         P_MIN_VALUE IN NUMBER, 
         P_MAX_VALUE IN NUMBER
-    )
+    ); 
 
 END audit_check_tools; 
 /
