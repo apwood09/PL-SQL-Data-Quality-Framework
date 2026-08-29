@@ -25,7 +25,7 @@ END;
 /
 
 -- verify results -> metadata log table 
--- query audit history to prove framework safelt logged data
+-- query audit history to prove framework safely logged data
 SELECT 
     log_id, 
     TO_CHART(run_date, 'YYY-MM-DD HH24:MI:SS') AS test_time, 
