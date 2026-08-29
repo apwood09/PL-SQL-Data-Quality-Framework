@@ -2,7 +2,7 @@
 /* NOT NULL not used -> allow bad data for testing */
 
 -- create EMPLOYEES table 
-create EMPLOYEES table (
+create MOCK_EMPLOYEES table (
     -- unique id each employee
     employee_id NUMBER, 
     -- employee's name (text data)
