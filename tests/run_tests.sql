@@ -3,6 +3,10 @@
 
 SET SERVEROUTPUT ON; 
 -- data quality framework tests 
+PROMPT ===================================================
+PROMPT STEP 1: RUNNING DATA QUALITY FRAMEWORK TESTS...
+PROMPT ===================================================
+
 BEGIN 
     -- missing first names
     pkg_dq_framework.check_nulls(
@@ -23,6 +27,11 @@ BEGIN
     );
 END; 
 /
+
+PROMPT 
+PROMPT ===================================================
+PROMPT STEP 2: VERIFYING RESULTS IN THE METADATA LOG TABLE...
+PROMPT ===================================================
 
 -- verify results -> metadata log table 
 -- query audit history to prove framework safely logged data
