@@ -208,5 +208,5 @@ Close the core desktop engine completely and reclaim full computer memory space,
   ### 3. Verify Stopped Status 
   Confirm that your backgrounbd daemons are fully inactive, execute: 
   ```bash
-docker ps
-```
+    docker ps
+  ```
